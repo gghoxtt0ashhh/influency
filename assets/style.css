@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* geral */
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 15px; 
+    border-bottom: 1px solid black; 
+}
+
+header p {
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.icons {
+    margin: 0 30px;
+}
+
+img {
+    width: 30px;
+}
